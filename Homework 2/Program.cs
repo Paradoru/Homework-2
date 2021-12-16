@@ -12,7 +12,7 @@ namespace Homework_2
                 double x = double.Parse(Console.ReadLine());
                 Console.WriteLine("Введите y:");
                 double y = double.Parse(Console.ReadLine());
-                if (x>=-1 && x<=1 && y>=0.5 & y<=1)
+                if (x >= -1 && x <= 1 && y >= 0.5 && y <= Math.Cos(x))
                     Console.WriteLine("Да");
                 else
                     Console.WriteLine("Нет");
