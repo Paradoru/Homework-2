@@ -8,6 +8,7 @@ namespace Homework_2
         {
             try
             {
+                // высокий уровень
                 Console.WriteLine("Введите x:");
                 double x = double.Parse(Console.ReadLine());
                 Console.WriteLine("Введите y:");
